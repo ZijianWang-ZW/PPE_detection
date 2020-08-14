@@ -1,4 +1,4 @@
-# Real-time PPE detection
+# Real-time PPE Detection & Open Dataset
 
 ![avatar](figures/ppe_sample.gif)
 
@@ -16,7 +16,7 @@ A novel dataset  is constructed for detecting the helmet, the helmet colors and 
 
 Instead of just accepting exiting images, strict criteria are designed at the beginning, and only  1,330 high-quality images among 10,000 ones from the Internet and open datasets are selected. 
 
-<img src="figures/size_class.png" alt="avatar" style="zoom:25%;" />
+<img src="figures/size_class.png" width="60%" />
 
 The dataset is open for free use, please download at [Google Drive](https://drive.google.com/file/d/1fdGn67W0B7ShpBDbbQpUF0ScPQa4DR0a/view?usp=sharing) or [Baidu Yunpan (password: f003)](https://pan.baidu.com/s/1G9EbLKUgF1tcOPCeWSEeMw ). 
 
@@ -34,11 +34,11 @@ If the dataset helpes you, please cite the repository in your article:
 - For YOLO v3 models, different detection layers are tested, while the more layers cannot improve the performance. 
 - For YOLO v4 models,  the increase of training image size cannot contribute to better performance. 
 
-<img src="figures/map.png" alt="avatar" style="zoom:100%;"/>
+<img src="figures/map.png" style="zoom:100%;"/>
 
 <center>Figure: Mean average precision in each model. <center>
 
-<img src="figures/time.png" alt="avatar" style="zoom:20%;"/>
+<img src="figures/time.png" width="60%"/>
 
 <center>Figure: Average time for processing one image in each model (GPU: Tesla P40 with 24 GB; CPU: 4 cores with 8 GB)  <center>
 
