@@ -38,11 +38,11 @@ If the dataset helpes you, please cite the repository in your article:
 
 <center><img src="figures/map.png" style="zoom:100%;"/> 
 
-<center>Figure: Mean average precision in each model. </center>
+<div align=center>Figure: Mean average precision in each model.</div>
 
 <div align=center><img src="figures/time.png" width="60%"/></div>
 
-<center>Figure: Average time for processing one image in each model (GPU: Tesla P40 with 24 GB; CPU: 4 cores with 8 GB)  </center>
+<div align=center>Figure: Average time for processing one image in each model (GPU: Tesla P40 with 24 GB; CPU: 4 cores with 8 GB). </div>
 
  ## Todo 
 
