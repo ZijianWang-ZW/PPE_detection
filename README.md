@@ -16,7 +16,7 @@ A novel dataset  is constructed for detecting the helmet, the helmet colors and 
 
 Instead of just accepting exiting images, strict criteria are designed at the beginning, and only  1,330 high-quality images among 10,000 ones from the Internet and open datasets are selected. 
 
-<center><img src="figures/size_class.png" width="60%" /></ center>
+<div align=center><img src="figures/size_class.png" width="60%" /></div>
 
 
 
@@ -40,7 +40,7 @@ If the dataset helpes you, please cite the repository in your article:
 
 <center>Figure: Mean average precision in each model. </center>
 
-<center><img src="figures/time.png" width="60%"/></center>
+<div align=center><img src="figures/time.png" width="60%"/></div>
 
 <center>Figure: Average time for processing one image in each model (GPU: Tesla P40 with 24 GB; CPU: 4 cores with 8 GB)  </center>
 
