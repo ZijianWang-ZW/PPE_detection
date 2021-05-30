@@ -1,4 +1,4 @@
-# Real-time PPE Detection & Open Dataset
+# Real-time PPE Detection & Open Dataset ([Open Access paper link](https://www.mdpi.com/1424-8220/21/10/3478))
 
 ![avatar](figures/ppe_sample.gif)
 
@@ -24,10 +24,23 @@ The dataset is open for free use, please download at [Google Drive](https://driv
 
 If the dataset helpes you, please cite the repository in your article:
 
-`@misc{Zijian2020,
-	author = {Zijian Wang}, title = {PPE detection}, year = {2020},
-	publisher = {GitHub}, journal = {GitHub repository},
-	howpublished = {\url{https://github.com/ZijianWang1995/PPE_detection}}}`
+`
+@Article{wang2021ppe,
+AUTHOR = {Wang, Zijian and Wu, Yimin and Yang, Lichao and Thirunavukarasu, Arjun and Evison, Colin and Zhao, Yifan},
+TITLE = {Fast Personal Protective Equipment Detection for Real Construction Sites Using Deep Learning Approaches},
+JOURNAL = {Sensors},
+VOLUME = {21},
+YEAR = {2021},
+NUMBER = {10},
+ARTICLE-NUMBER = {3478},
+URL = {https://www.mdpi.com/1424-8220/21/10/3478},
+ISSN = {1424-8220},
+DOI = {10.3390/s21103478}
+}`
+
+Or
+	
+`Wang, Z.; Wu, Y.; Yang, L.; Thirunavukarasu, A.; Evison, C.; Zhao, Y. Fast Personal Protective Equipment Detection for Real Construction Sites Using Deep Learning Approaches. Sensors 2021, 21, 3478. https://doi.org/10.3390/s21103478`
 
 ## Results
 
@@ -43,8 +56,4 @@ If the dataset helpes you, please cite the repository in your article:
 <div align=center><img src="figures/time.png" width="60%"/></div>
 
 <div align=center>Figure: Average time for processing one image in each model (GPU: Tesla P40 with 24 GB; CPU: 4 cores with 8 GB). </div>
-
- ## Todo 
-
-- Add the weights, and how to train the model
 
